@@ -1,0 +1,16 @@
+# Вводится номер банковской карты, определить платежную систему.
+
+card_number = input("Введите номер банковской карты: ")
+first = int(card_number[0])
+if (first == 2):
+    print('Карта "Мир"')
+elif (first == 3):
+    print('Карта American "Express"')
+elif (first == 4):
+    print('Карта "Visa"')
+elif (first == 5):
+    print('Карта "MasterCard"')
+elif (first == 7):
+    print('Карта "MasterCard"')
+else:
+    print("Неизвестная платежная система")
